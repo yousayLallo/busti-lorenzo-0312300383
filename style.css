@@ -1,0 +1,217 @@
+/* Sfondo per tutte le pagine */
+body {
+    background-color: #f0e6e8;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+/* Stile del logo Caviro */
+nav img {
+    width: 160px;
+    height: auto;
+    display: block;
+    border-radius: 6px; /* Ho voluto rendere i lati del loghino stondati */
+}
+
+/* Stile del contenitore principale della navbar */
+nav {
+    background-color: #68263E; /* Rosso Bordeaux che richiama il logo */
+    padding: 0px 30px;
+    display: flex; /* Logo e lista sulla stessa riga */
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+    max-width: 870px;
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 8px;
+    position: sticky;
+    top: 0;
+}
+
+/* Stile dei link nella lista */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* Stile testi link */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-block;
+}
+
+/* Per dare un tocco più elegante ai link di navigabilità */
+nav ul li a:hover {
+    color: rgba(248, 245, 245, 0.832);
+    transform: scale(1.10);
+}
+
+/* Stile divisore NAVBAR */
+nav ul .divisore {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    margin: 0 20px;
+    user-select: none;
+}
+
+/* Contenuti centrali, titoli e immagini (SEZIONI) */
+header p {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+}
+main div {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+
+}
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+section p, ul, ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+header {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h1 {
+    color: #4a1527;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    color: #68263E;
+    font-family: Georgia, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d1ccce;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #551e32;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #222222;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+header h4 {
+    font-family: Georgia, serif;
+    font-size: 16.5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.blocco-immagine {
+    max-width: 100%;
+    margin: 35px auto;
+    display: table;
+} 
+
+/* Stile per il bottone per il download del Report */
+.btn-download {
+    background-color: #68263E;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 30px;
+    border-radius: 6px;
+    
+    display: block;
+    max-width: fit-content;
+    margin: 40px auto;
+    
+    border: 2px solid #68263E;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-download:hover {
+    background-color: #ffffff;
+    color: #68263E;
+    box-shadow: 0 6px 12px rgba(104, 38, 62, 0.15);
+
+    transform: scale(1.04);
+}
+
+/* Footer di chiusura */
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    transition: color 0.3s;
+}
