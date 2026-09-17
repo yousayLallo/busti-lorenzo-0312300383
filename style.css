@@ -519,3 +519,28 @@ footer a {
     line-height: 1.4;
   }
 } 
+
+/* Adattamento per smartphone in orientamento orizzontale */
+@media screen and (orientation: landscape) and (max-height: 600px) {
+
+  section p,
+  section ul li,
+  section ol li {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: left;
+  }
+
+  footer {
+      width: 100%;
+      padding: 15px 10px;
+      line-height: 1.4;
+      font-size: 14px;
+      box-sizing: border-box;
+  }
+
+  footer p {
+      font-size: 14px;
+      line-height: 1.4;
+  }
+}
